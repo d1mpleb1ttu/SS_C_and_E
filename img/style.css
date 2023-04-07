@@ -11,7 +11,7 @@ fieldset {
   text-align: center;
 }
 
-.footerStyle {
+.footerStyle .headerStyle {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -26,6 +26,7 @@ fieldset {
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 /* Float four columns side by side */
@@ -65,4 +66,12 @@ fieldset {
     display: block;
     margin-bottom: 20px;
   }
+  .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
 }
